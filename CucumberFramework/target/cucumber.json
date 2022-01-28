@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user opens website",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.openWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.verifyLoginPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-25T01:49:59.728Z",
+        "line": 51,
+        "name": "Verify user can see web table data",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;verify-user-can-see-web-table-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user enters username \"admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.automation.stepdef.StepDefinition2.doLogin(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "click on login button",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify user is navigated to homepage",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.verifyHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verify table has below data",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.verifyTableHasBelowData(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Airi Satou",
+                  "Accountant",
+                  "Tokyo",
+                  "33",
+                  "2008/11/28"
+                ]
+              },
+              {
+                "cells": [
+                  "Angelica Ramos",
+                  "Chief Executive Officer (CEO)",
+                  "London",
+                  "47",
+                  "2009/10/09"
+                ]
+              },
+              {
+                "cells": [
+                  "Ashton Cox",
+                  "Junior Technical Author",
+                  "San Francisco",
+                  "66",
+                  "2009/01/12"
+                ]
+              },
+              {
+                "cells": [
+                  "Bradley Greer",
+                  "Software Engineer",
+                  "London",
+                  "41",
+                  "2012/10/13"
+                ]
+              },
+              {
+                "cells": [
+                  "Brenden Wagner",
+                  "Software Engineer",
+                  "San Francisco",
+                  "28",
+                  "2011/06/07"
+                ]
+              },
+              {
+                "cells": [
+                  "Brielle Williamson",
+                  "Integration Specialist",
+                  "New York",
+                  "61",
+                  "2012/12/02"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user clicks on user badge icon",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.user_clicks_on_user_badge_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "select logout option",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.select_logout_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.verifyLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "verify another table data",
+            "match": {
+              "location": "com.automation.stepdef.StepDefinition2.verifyAnotherTableData(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Airi Satou"
+                ]
+              },
+              {
+                "cells": [
+                  "Angelica Ramos"
+                ]
+              },
+              {
+                "cells": [
+                  "Ashton Cox"
+                ]
+              },
+              {
+                "cells": [
+                  "Bradley Greer"
+                ]
+              },
+              {
+                "cells": [
+                  "Brenden Wagner"
+                ]
+              },
+              {
+                "cells": [
+                  "Brielle Williamson"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@DataTable"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test the login functionality",
+    "description": "  Developer - Fenton\n  Tester - Tatiana\n  Reviewed by - Daniel",
+    "id": "this-feature-is-to-test-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]

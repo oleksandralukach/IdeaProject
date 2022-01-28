@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Critical Test" verbose="1" >
+
+    <!-- comment -->
+
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <exclude name ="@Smoke"/>  &lt;!&ndash; -we don't use include tag because that is an issue in TestNG/> &ndash;&gt;-->
+<!--        </run>-->
+<!--    </groups>-->
+
+    <test name = "Login Test">
+        <classes>
+            <class name = "com.automation.tests.TestNGTest">
+                <methods>
+                    <include name="secondTest" /> <!-- to filter what we want to execute instead og groups -->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
