@@ -1,5 +1,7 @@
 package mentoring;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class WhileLoops {
@@ -44,29 +46,51 @@ public class WhileLoops {
 
         //============================================================================
 
+//        while (start < end) {
+//
+//            if (hasO.charAt(start) == 'o') {
+//                System.out.println("First o is in index " + start);
+//                temp2 = start+1;
+//                System.out.println("Temp2 " + temp2);
+//               // break; // if no break all 'o' will be printed out
+//            }
+//            if (start > temp2 && hasO.charAt(start) == 'o'){
+//                System.out.println("second index is " + start);
+//            }
+//            start++;
+//        }
+//
+//        //===================================================================
+//
+//        while (temp2 < end) {
+//
+//            if (hasO.charAt(temp2) == 'o') {
+//                System.out.println("second index " + temp2);
+//                break;
+//            }
+//            temp2++;
+//        }
+
+        //========================================
+
         while (start < end) {
 
-            if (hasO.charAt(0) == 'o') {
+            if (hasO.charAt(start) == 'o') {
                 System.out.println("First o is in index " + start);
-                temp2 = start +1;
+                temp2 = start+1;
                 System.out.println("Temp2 " + temp2);
-               // break; // if no break all 'o' will be printed out
-            }
-            if (start > temp2 && hasO.charAt(start) == 'o'){
-                System.out.println("second index is " + start);
+                break;
             }
             start++;
         }
-
-        //===================================================================
-
-        while (temp2 < end) {
-
-            if (hasO.charAt(temp2) == 'o') {
-                System.out.println("second index " + temp2);
+        while(temp2 <= end){
+            if (hasO.charAt(temp2) == 'o'){
+                System.out.println("second index is " + temp2);
                 break;
             }
             temp2++;
         }
+
     }
+
 }

@@ -136,9 +136,9 @@ public class Menu {
     private static void addToBill(String food) {
 
         if (bill.containsKey(food)) {
-            bill.put(food, menu.get(food) + bill.get(food));
+            bill.put(food, menu.get(food) + bill.get(food)); //sum the price
         } else {
-            bill.put(food, menu.get(food));
+            bill.put(food, menu.get(food)); // menu.get return the price
         }
     }
 

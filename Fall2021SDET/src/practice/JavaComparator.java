@@ -33,13 +33,13 @@ public class JavaComparator {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
+        int n = scan.nextInt(); //amount of players
 
         Player[] player = new Player[n];
         Checker checker = new Checker();
 
         for(int i = 0; i < n; i++){
-            player[i] = new Player(scan.next(), scan.nextInt());
+            player[i] = new Player(scan.next(), scan.nextInt()); //constructor will initialize instances for every player)
         }
         scan.close();
 

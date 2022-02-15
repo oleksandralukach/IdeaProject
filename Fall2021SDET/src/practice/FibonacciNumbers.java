@@ -14,7 +14,7 @@ public class FibonacciNumbers {
         int num3 = 0;
         System.out.println(num1 + "" + num2); //printing 0 and 1
 
-        for (int i = 1; i < 10; i++) { // printing from 2
+        for (int i = 1; i < 10; i++) { // printing from "2"
 
             num3 = (num1 + num2);
             System.out.println(num3);

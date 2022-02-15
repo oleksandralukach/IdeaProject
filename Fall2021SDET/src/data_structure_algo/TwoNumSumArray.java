@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TwoNumSumArray {
     public static void main(String[] args) {
-        int[] nums = {3, 5, -4, 8, 11, 1, 6, 1, -4};
+        int[] nums = {2, 5, -4, 8, 11, 1, 6, 1, -4};
         int target = 10;
 
         TwoNumSumArray obj = new TwoNumSumArray();
@@ -22,8 +22,8 @@ public class TwoNumSumArray {
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length; j++) {
                 if (nums[i] + nums[j] == target && i != j) {
-                    returnTwoNumSum[0] = nums[i];
-                    returnTwoNumSum[1] = nums[j];
+                    returnTwoNumSum[0] = j;
+                    returnTwoNumSum[1] = i;
                 }
             }
         }

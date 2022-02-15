@@ -42,17 +42,24 @@ public class Palindrome {
 
         // Pointers pointing to the beginning
         // and the end of the string
-        int i = 0, j = str.length() - 1; // beginning point and ending point
+//        int i = 0, j = str.length() - 1; // beginning point and ending point
+//
+//        // While there are characters to compare
+//        while (i < j) {
+//            // If there is a mismatch
+//            if (str.charAt(i) != str.charAt(j))
+//                return false;
+//            // Increment first pointer and
+//            // decrement the other
+//            i++;
+//            j--;
+//        }
 
-        // While there are characters to compare
-        while (i < j) {
-            // If there is a mismatch
-            if (str.charAt(i) != str.charAt(j))
+        //same but for loop
+        for (int k = 0, m = str.length()-1;k < m; k++, m--) {
+            if (str.charAt(k) != str.charAt(m)){
                 return false;
-            // Increment first pointer and
-            // decrement the other
-            i++;
-            j--;
+            }
         }
         // Given string is a palindrome
         return true;

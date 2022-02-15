@@ -9,7 +9,7 @@ public class TwinPrimeNumbers {
     public static ArrayList<Integer> findPrimeNumbers() {
         ArrayList<Integer> primeNums = new ArrayList<>();
         for (int i = 2; i < 100; i++) {
-            int counter = 0;
+            int counter = 0; //represents number of times particular number is divisible (should be 2 for prime num)
             for (int j = 1; j <= i; j++) {
                 if (i % j == 0) {
                     counter += 1;

@@ -16,12 +16,12 @@ public class SubSequence {
             return isSubSequence(str1, str2, m - 1, n - 1);
 
         // If last characters are not matching
-        return isSubSequence(str1, str2, m, n - 1);
+        return isSubSequence(str1, str2, m, n - 1); //reducing the size of arr2 each time it's not matching
     }
 
     // Driver program
     public static void main(String[] args) {
-        String str1 = "gksrek";
+        String str1 = "geksrees";
         String str2 = "geeksforgeeks";
         int m = str1.length();
         int n = str2.length();
