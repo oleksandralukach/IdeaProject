@@ -21,8 +21,10 @@ public class WebElementExample {
         searchBox.sendKeys("TV");
 
         // Get text inside the element by .getAttribute(placeholder):
-        String text = searchBox.getAttribute("placeholder");//placeholder - text inside the tag vs between the tags - text
+        String text = searchBox.getAttribute("placeholder");//placeholder - text inside the tag
+        // vs between the tags - getText()
         System.out.println(text);
+
 
         //Click on button:
         searchButton.submit();//when we have a type submit we can use method submit() for clicking

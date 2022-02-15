@@ -24,13 +24,13 @@ public class LoginPage {
         PageFactory.initElements(driver,this);
     }
 
-    public void doLogin(WebDriver driver)  {
-        userName.sendKeys("test22.gmail.com");
+    public void doLogin( )  {
+        userName.sendKeys("test22@gmail.ru");
         password.sendKeys("12345678Ab");
         loginBtn.click();
     }
 
-    public void verifyLoginPage(WebDriver driver){
+    public void verifyLoginPage( ){
         Assert.assertTrue(userName.isDisplayed(), "Username input is not displayed");
         Assert.assertTrue(password.isDisplayed(), "Password input is not displayed");
     }

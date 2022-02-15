@@ -4,8 +4,8 @@ Feature: Register to Digital Bank application
     Given User navigates to Digital Bank login page
     And Verify that web title is "Digital Bank"
     When User logs in with following credentials
-      | username              | password  |
-      | JohnDoe@testemail.com | Password1 |
+      | username         | password    |
+      | test22@gmail.com | 123456789Ac |
     Then User successfully logged in to home page
 
 
@@ -13,7 +13,7 @@ Feature: Register to Digital Bank application
 
     Given User navigates to Digital Bank login page
     And Verify that web title is "Digital Bank"
-    When User logs in with "JohnDoe@testemail.com " and "123"
+    When User logs in with "test22@gmail.com " and "123"
     Then User should be displayed with the error message "Error Invalid credentials or access not granted."
 
 

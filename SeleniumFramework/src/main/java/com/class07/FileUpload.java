@@ -24,10 +24,13 @@ public class FileUpload {
 
     @Test
     public void fileUpload() {
+        //we have input tag - expecting input from us/send keys here
         WebElement fileUploadInput = driver.findElement(By.id("file-upload"));
         fileUploadInput.sendKeys("C:\\Users\\Oleksanda\\IdeaProjects\\SeleniumFramework\\src\\main\\resources\\data\\fileUpload.txt");
 
         WebElement fileUploadButton = driver.findElement(By.id("file-submit"));
         fileUploadButton.click();
     }
+
+
 }

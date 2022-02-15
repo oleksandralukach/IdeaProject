@@ -21,11 +21,13 @@ public class SignInPageSteps {
 
     @Given("^I am on home page$")
     public void i_am_on_home_page() {
+
         driver.get("http://automationpractice.com/index.php");
     }
 
     @When("^I click Sign in button$")
     public void i_click_Sign_in_button() {
+
         sign.buttonSignIn.click();
     }
 

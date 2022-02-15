@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class HomePage extends Hooks {
+public class HomePage {
     WebDriver driver;
 
     @FindBy(className = "user-avatar rounded-circle")
@@ -16,15 +16,18 @@ public class HomePage extends Hooks {
     @FindBy(xpath = "//div[@class = \"user-menu dropdown-menu show\"]/a[3]")
     WebElement logoutBtn;
     @FindBy(xpath = "//a[@class=\"navbar-brand\"]/img")
-    WebElement homePageLogo;
+    public WebElement homePageLogo;
     String currentUrl;
+
+    //???//?/???
+    //WebElement log = driver.findElement(By.id("username"));
 
     public HomePage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    public void verifyHomepage(WebDriver driver) {
+    public void verifyHomepage() {
         Assert.assertTrue(homePageLogo.isDisplayed(), "Logo is missing from homepage");
 //        currentUrl = driver.getCurrentUrl();
 //        Assert.assertTrue(currentUrl.equals("http://3.129.60.236:8080/bank/home"), "Not a Home Page");

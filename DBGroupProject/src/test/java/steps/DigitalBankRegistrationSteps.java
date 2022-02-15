@@ -1,4 +1,4 @@
-package step;
+package steps;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
@@ -24,16 +24,18 @@ import static org.junit.Assert.assertTrue;
  */
 public class DigitalBankRegistrationSteps {
     private WebDriver driver;
+
     private final String LOGIN_PAGE_URL = "http://3.129.60.236:8080/bank/login";
     private final String HOME_PAGE_URL = "http://3.20.225.112:8080/bank//home";
     private final String SIGNUP_PAGE_URL = "http://3.20.225.112:8080/bank/signup";
 
-    @Given("^User navigates to Digital Bank login page$")
+    @Given("User navigates to Digital Bank login page")
     public void user_navigates_to_Digital_Bank_login_page() throws Throwable {
         driver = Driver.getDriver();
         driver.get(LOGIN_PAGE_URL);
-        assertEquals("Failed: URL mismatch",LOGIN_PAGE_URL, driver.getCurrentUrl());
+        assertEquals("Failed: URL mismatch", LOGIN_PAGE_URL, driver.getCurrentUrl());
     }
+
 
     @Given("^Verify that web title is \"([^\"]*)\"$")
     public void verify_that_web_title_is(String expectedTitle) throws Throwable {

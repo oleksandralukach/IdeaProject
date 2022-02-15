@@ -21,6 +21,7 @@ public class JavaScriptExecutorExample {
 
         WebElement signInLink = driver.findElement(By.xpath("//span[@id='gh-ug']/a"));
 
+        //border
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].style.border = '2px solid red';", signInLink);
 

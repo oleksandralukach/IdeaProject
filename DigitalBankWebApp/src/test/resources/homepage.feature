@@ -23,12 +23,7 @@ Feature: Home Page Verification
     And user should see transfer between acc title
     And user should see Visa Direct Transfer title
 
-  @DataTable
-  Scenario: verify profile information
-    Then user verify profile information
-    Then verify profile has valid information
-      | address                     | locality | region | postal code | country | home phone | mobile phone |
-      | 3322 W Hutchinson St, apt 2 | Chicago  | IL     | 60618       | USA     | 8472248123 | 773995369    |
+
 
   Scenario: verify notifications button
     When user is on home page

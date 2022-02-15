@@ -9,7 +9,7 @@ public class SeleniumBasicCommands {
     public static void main(String[] args) {
 
         // 1. Setting path to chromedriver.exe first(give path to driver/ set properties)
-       // System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/chromedriver.exe");
+        // System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/chromedriver.exe");
         WebDriverManager.chromedriver().setup(); //instead, no need to import the drivers too
         // 2. Open the browser (build driver object/browser will open)/this property will be used in chromedriver
         WebDriver driver = new ChromeDriver();// interface webdriver - child class implement/ parent class reference- child class object
@@ -17,17 +17,24 @@ public class SeleniumBasicCommands {
         // - To open url in browser using driver to open website
         driver.get("https://www.google.com/");
 
+        // - to check the url of the page:
+        System.out.println(driver.getCurrentUrl());
+
+        // - to get a title of an opened page:
+        String expectedTitle = "Google";
+        String actualTitle = driver.getTitle();
+
         // - Maximize
         driver.manage().window().maximize();
 
         // - delete cookies(info stored in your browser like when you visited, who you are etc.)
         driver.manage().deleteAllCookies(); //only when driver is open
 
-        //close the browser
+        // - close the browser
         driver.close();
 
-        //we are using web elements
-        //full browser is a driver
+        // we are using web elements
+        // full browser is a driver
         // each part of browser is web element
     }
 }

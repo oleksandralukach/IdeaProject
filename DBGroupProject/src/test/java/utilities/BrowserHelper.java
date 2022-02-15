@@ -17,7 +17,7 @@ public class BrowserHelper {
 
     /**
      * Create a WebDriver helper method that waits until page completely loaded.
-     * Hint: Try to implement a method usung JavascriptExecutor.
+     * Hint: Try to implement a method using JavascriptExecutor.
      */
     public static void waitForPageLoadComplete(WebDriver driver, int specifiedTimeout) {
         //TODO: Implement here:

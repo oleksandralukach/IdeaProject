@@ -26,12 +26,15 @@ public class ExplicitWait {
         //"Hello world" element is present in the DOM but not visible
         // so selenium will wait till max 60 sec
         WebDriverWait wait = new WebDriverWait(driver,60);
-
         WebElement text = driver.findElement(By.xpath("//div[@id='finish']/h4"));
 
         //explicit wait syntax for Sel version < 4
         wait.until(ExpectedConditions.visibilityOf(text));
 
         System.out.println(text.getText());
+
+        //Or short way:
+//        WebElement submitButton = (new WebDriverWait(driver,10))
+//                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("1111111")));
     }
 }

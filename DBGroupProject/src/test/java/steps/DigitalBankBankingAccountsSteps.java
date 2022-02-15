@@ -1,4 +1,4 @@
-package step;
+package steps;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;

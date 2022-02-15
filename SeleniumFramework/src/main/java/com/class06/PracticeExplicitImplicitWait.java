@@ -19,11 +19,11 @@ public class PracticeExplicitImplicitWait {
         driver.get("http://www.minted.com/");
 
         driver.manage().window().maximize();
-
+//implicit wait:
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         WebElement emailField = driver.findElement(By.xpath("//input[@id='bx-element-1303201-Gu64MsV-input']"));
-
+//explicit wait
         wait.until(ExpectedConditions.visibilityOf(emailField));
         emailField.sendKeys("Hello");
 

@@ -7,6 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import java.util.List;
+import java.util.Map;
 
 public class StepDefinition2 {
 
@@ -90,12 +91,15 @@ public class StepDefinition2 {
         List<List<String>> data = dataTable.asLists();
         //System.out.println(data.get(2).get(1));
 
-        for (int i = 0; i < data.size(); i++) {
-            for (int j = 0; j < data.get(i).size(); j++) {
-                System.out.print(data.get(i).get(j) + " ");
-            }
-            System.out.println();
-        }
+        //System.out.println(dataTable.cells().get(2).get(1)); //printing cell on row index 2, column index 1
+        System.out.println(dataTable.cells()); //printing the rows
+
+//        for (int i = 0; i < data.size(); i++) {
+//            for (int j = 0; j < data.get(i).size(); j++) {
+//                System.out.print(data.get(i).get(j) + " ");
+//            }
+//            System.out.println();
+//        }
     }
 
     @Then("verify another table data")
@@ -105,3 +109,17 @@ public class StepDefinition2 {
         }
     }
 }
+
+//    public void thefollowingInvoices(DataTable dataTable){
+//     //Data table object stores rows and columns from feature file data table.
+//        Sout(dataTable.cells()); //printing the rows
+//        Sout(dataTable.cells().get(2).get(1)); //first row than column
+//
+//        List<Map<String,String>> invoices = dataTable.asMaps(String.class, String.class);
+//
+//        for(List<Map<String,String>>invoice : invoices){
+//            Invoice invoice1 = new Invoice(Double.parseDouble(invoice.get(“amount”)), invoice.get(“name”);
+//            invoiceList.add(invoice1);
+//        }
+//
+//    }

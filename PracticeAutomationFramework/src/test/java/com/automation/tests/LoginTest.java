@@ -1,14 +1,15 @@
 package com.automation.tests;
 
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
 public class LoginTest extends Hooks{
 
     @Test
     public void verifyUserCanLogin() {
-        loginPage.verifyLoginPage(driver);
-        loginPage.doLogin(driver);
-        wait.until()
-        homePage.verifyHomepage(driver);
+        loginPage.verifyLoginPage();
+        loginPage.doLogin();
+        homePage.verifyHomepage();
     }
 }

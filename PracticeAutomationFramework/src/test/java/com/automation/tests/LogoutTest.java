@@ -6,9 +6,10 @@ public class LogoutTest extends Hooks {
 
     @Test
     public void verifyUserLogout() {
-        homePage.verifyHomepage(driver);
+        loginPage.doLogin();
+        homePage.verifyHomepage();
         homePage.clickOnProfileIcon();
         homePage.clickOnLogoutBtn();
-        loginPage.verifyLoginPage(driver);
+        loginPage.verifyLoginPage();
     }
 }
