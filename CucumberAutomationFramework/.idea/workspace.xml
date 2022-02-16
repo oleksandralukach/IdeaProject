@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d3b9ce2-7ef5-4d01-917e-4a035d0cbc3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberFramework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/domains/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/domains/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/runners/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/steps/DigitalBankBankingAccountsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/steps/DigitalBankRegistrationSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/steps/MyStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/utilities/BrowserHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/java/utilities/MockData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/resources/features/DigitalBankCheckingAccounts.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/resources/features/DigitalBankRegistration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/src/test/resources/features/DigitalBankSavingsAccounts.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/domains/BankAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/domains/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/features/DigitalBankCheckingAccounts.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/features/DigitalBankRegistration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/features/DigitalBankSavingsAccounts.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/runners/CucumberRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/steps/DigitalBankBankingAccountsSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/steps/DigitalBankRegistrationSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/steps/MyStepdefs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/utilities/BrowserHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBGroupProject/target/test-classes/utilities/MockData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DigitalBankWebApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DigitalBankWebApp/src/test/resources/Personal_profile_features/change_password.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DigitalBankWebApp/src/test/resources/Personal_profile_features/logout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DigitalBankWebApp/src/test/resources/Personal_profile_features/my_profile.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall2021SDET/src/data_structure_algo/QueueDataStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall2021SDET/src/data_structure_algo/StackDataStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall2021SDET/src/data_structure_algo/TwoNumSumList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall2021SDET/src/phone_task/Local.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall2021SDET/src/phone_task/TMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall2021SDET/src/phone_task/TypeOfCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall2021SDET/src/practice/HomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fall2021SDET/src/practice/ZerosToTheEndArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAutomationFramework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAutomationFramework/src/test/java/com/automation/page_object_models/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAutomationFramework/src/test/java/com/automation/page_object_models/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAutomationFramework/src/test/java/com/automation/tests/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAutomationFramework/src/test/java/com/automation/tests/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAutomationFramework/src/test/java/com/automation/tests/LogoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAutomationFramework/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticeAutomationFramework/target/test-classes/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumFramework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/JavaUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class06/FluentWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class07/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class07/PictureUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/resources/data/fileUpload.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/resources/data/picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestNG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/src/test/java/pages/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/src/test/java/pages/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/src/test/java/step_defs/SignInPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/src/test/java/utilities/ChromeWebDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/src/test/resources/feature/ts1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/target/test-classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/target/test-classes/feature/ts1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/target/test-classes/utilities/ChromeWebDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../group_project_UI/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalBankWebApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DigitalBankWebApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalBankWebApp/src/test/java/DigitalBankBankingAccountsSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitalBankWebApp/src/test/resources/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../DigitalBankWebApp/src/test/resources/homepage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/out/production/Fall2021SDET/format_printing/FormatPrintingEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/out/production/Fall2021SDET/format_printing/FormatPrintingEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/out/production/Fall2021SDET/homework_assignments/FirstLastDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/out/production/Fall2021SDET/homework_assignments/FirstLastDigit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/out/production/Fall2021SDET/homework_assignments/HomeWork_7_LogicalOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/out/production/Fall2021SDET/homework_assignments/HomeWork_7_LogicalOperators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/out/production/Fall2021SDET/methods/MethodUserInputFromSeparateMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/out/production/Fall2021SDET/methods/MethodUserInputFromSeparateMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/src/data_structure_algo/TwoNumSumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/src/data_structure_algo/TwoNumSumArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/src/practice/JavaComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/src/practice/JavaComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/src/practice/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/src/practice/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/src/practice/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/src/practice/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fall2021SDET/src/practice/SubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fall2021SDET/src/practice/SubSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class01/SeleniumBasicCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class01/SeleniumBasicCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class02/WebElementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class02/WebElementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class05/JavaScriptExecutorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class05/JavaScriptExecutorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class06/ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class06/ExplicitWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class06/PracticeExplicitImplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class06/PracticeExplicitImplicitWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class06/ScrollExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/src/main/java/com/class06/ScrollExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/target/classes/com/class02/WebElementExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/target/classes/com/class02/WebElementExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/target/classes/com/class05/JavaScriptExecutorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/target/classes/com/class05/JavaScriptExecutorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/target/classes/com/class06/ExplicitWait.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/target/classes/com/class06/ExplicitWait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFramework/target/classes/com/class06/ScrollExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFramework/target/classes/com/class06/ScrollExample.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="24qpCaYSZm6TNX1luNWfSqx2nuv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/devx-cucumber-automation-framework-master" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oleksanda\IdeaProjects\CucumberAutomationFramework\src\test" />
+      <recent name="C:\Users\Oleksanda\IdeaProjects\CucumberAutomationFramework\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify User Can Login">
+    <configuration name="Scenario: Verify User CAn Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberAutomationFramework" />
+      <option name="NAME_FILTER" value="^Verify User CAn Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify User CAn Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify User CAn Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify User Can Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberAutomationFramework" />
+      <option name="NAME_FILTER" value="^Verify User Can Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify User Can Login$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify User Can Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify User Can Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/logout.feature" />
+      <option name="GLUE" value="automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberAutomationFramework" />
+      <option name="NAME_FILTER" value="^Verify User Can Logout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify User Can Logout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify User Can Logout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Verify User CAn Login" />
+      <item itemvalue="Cucumber Java.Scenario: Verify User Can Login" />
+      <item itemvalue="Cucumber Java.Scenario: Verify User Can Logout" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify User Can Login" />
+        <item itemvalue="Cucumber Java.Scenario: Verify User Can Logout" />
+        <item itemvalue="Cucumber Java.Scenario: Verify User CAn Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d3b9ce2-7ef5-4d01-917e-4a035d0cbc3a" name="Changes" comment="" />
+      <created>1644367847139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644367847139</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
