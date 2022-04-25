@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-25T01:49:59.728Z",
+        "start_timestamp": "2022-04-08T20:10:02.677Z",
         "line": 51,
         "name": "Verify user can see web table data",
         "description": "",
@@ -45,7 +45,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 52,
@@ -67,6 +67,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 53,
@@ -89,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 55,
@@ -157,7 +158,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 62,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 63,
@@ -193,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 65,

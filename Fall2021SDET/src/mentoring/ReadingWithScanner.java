@@ -1,7 +1,9 @@
 package mentoring;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -21,11 +23,11 @@ public class ReadingWithScanner {
         //
 
 //        String contentOfFile = "";
-
+//
 //        while (scan.hasNextLine()) {
 //            contentOfFile = contentOfFile + (scan.nextLine() + " \n ");
 //        }
-
+//
 //        System.out.println(contentOfFile);
 
         List<String> zipcodes = new ArrayList<>();

@@ -24,7 +24,8 @@ public class JaggedArraysWithStrings {
                 {"Dell", "Asus", "Samsung", "Acer"}};
 
         for(int i = 0; i < computers.length; i++){
-            System.out.println(Arrays.toString(computers[i]));
+            //System.out.println(Arrays.toString(computers[i]));
+            System.out.println(computers[i][0]);
         }
 
 

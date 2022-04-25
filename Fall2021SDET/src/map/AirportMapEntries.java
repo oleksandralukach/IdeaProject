@@ -9,9 +9,9 @@ public class AirportMapEntries {
         airportCodes.put("ORD", "Chicago Airport");
 
         //using methods directly without creating Set
-//        for (Map.Entry<String, String> entry : airportCodes.entrySet()) {
-//            System.out.println(entry.getKey() + " : " + entry.getValue());
-//        }
+        for (Map.Entry<String, String> entry : airportCodes.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
         System.out.println(airportCodes.entrySet());
 
     }

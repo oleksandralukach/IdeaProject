@@ -22,12 +22,12 @@ public class ArrayCopy {
         System.out.println("After: " + Arrays.toString(numsCopy));
 
         int [] temps = {65, 73, 34, 78};
-        int[] tempsCopy = new int [temps.length];
+        //int[] tempsCopy = new int [temps.length];
 
         System.out.println(Arrays.toString(temps));
-        System.out.println(Arrays.toString(tempsCopy));
+        //System.out.println(Arrays.toString(tempsCopy));
 
-        tempsCopy = Arrays.copyOf(temps,temps.length);
+        int[]tempsCopy = Arrays.copyOf(temps,temps.length);
         System.out.println("After copying temps to tempsCopy " + Arrays.toString(tempsCopy));
 
 

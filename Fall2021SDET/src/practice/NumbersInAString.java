@@ -8,7 +8,7 @@ public class NumbersInAString {
     Input a String as a user
     identify numbers in it and return them as a String
 
-    given input: "dev1x2 3school5"
+    given input: "dev1x2 3school45"
     exp output: "12345" > string
      */
 

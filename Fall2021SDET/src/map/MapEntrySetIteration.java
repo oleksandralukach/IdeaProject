@@ -25,7 +25,7 @@ public class MapEntrySetIteration {
 
         NumberFormat formatPopulation = NumberFormat.getInstance();
 
-        //System.out.println(formatPopulation.format(populationMap.get("Mexico"))); //comas
+        System.out.println(formatPopulation.format(populationMap.get("Mexico"))); //comas
 
         // map entry - key-value pair
         // Map.entrySet() returns collection view of the map with elements of this class

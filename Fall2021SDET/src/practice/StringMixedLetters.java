@@ -4,7 +4,7 @@ public class StringMixedLetters {
     public static void main(String[] args) {
         String companyName = "Groupon";
         String companyNameMixed = "nopGrou";
-        int[] indexes = {3, 4, 5, 6, 2, 1, 0};
+        int[] indexes = {3, 4, 5, 6, 2, 1, 0}; //providing the right order of characters in string
 
         StringBuilder sb = new StringBuilder();
 

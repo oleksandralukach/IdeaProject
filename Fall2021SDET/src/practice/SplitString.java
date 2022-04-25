@@ -17,7 +17,6 @@ public class SplitString {
         Scanner scan = new Scanner(System.in);
         String name = "Antarctica";
         splitString(name, scan);
-
     }
 
     public static String splitString(String name, Scanner scan) {
@@ -28,8 +27,7 @@ public class SplitString {
         StringBuilder newStr = new StringBuilder();
         newStr.append(name.substring(0,splitIndex));
         newStr.append(" ");
-        newStr.append(name.substring(splitIndex, splitIndex+splitIndex));
-        newStr.append(name.substring(splitIndex+splitIndex));
+        newStr.append(name.substring(splitIndex));
 
         System.out.println(newStr);
         return newStr.toString();

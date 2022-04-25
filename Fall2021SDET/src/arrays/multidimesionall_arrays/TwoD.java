@@ -13,7 +13,7 @@ public class TwoD {
         // for 2 dimensional arrays we need to provide a pair of square brackets
         // after the data type of the name of array
 
-        int[][] oddNumbers = {{1,3,5},{7,9,11}}; // int[2][3]
+        int[][] oddNumbers = {{1,3,5},{7,9,11}}; // new int[2][3]
 
         // to access the element of multidimensional arrays
         // we need to provide the index of nested array itself and then provide the
@@ -21,7 +21,7 @@ public class TwoD {
 
         System.out.println(oddNumbers[0][0]); // to print out "1" from array
         System.out.println(oddNumbers[0][2]); // to print out "5" from array
-        System.out.println(oddNumbers[oddNumbers.length -1]
-                [oddNumbers[oddNumbers.length-1].length-1]); // to print out "11" from array
+        System.out.println(oddNumbers.length);
+        System.out.println(oddNumbers[oddNumbers.length -1][oddNumbers[oddNumbers.length-1].length-1]); // to print out "11" from array
     }
 }

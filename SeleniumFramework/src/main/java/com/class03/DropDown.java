@@ -57,6 +57,7 @@ public class DropDown {
         Assert.assertTrue(selectedOptions.size() == 1 &&
                 selectedOptions.get(0).getText().equals("Baby"));
 
+
         //dropdown.getFirstSelectedOption().getText().equals("hello");
 
         // Practice multiple select:

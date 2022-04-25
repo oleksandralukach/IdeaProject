@@ -16,7 +16,6 @@ public class FullTriangle {
         // 2
         // 1
 
-
         for (int i = 1; i <= 5; i++) { //rows from 1 to 5 included
 
             for (int s = 5; s >= i; s--) { // spaces before stars
@@ -26,7 +25,7 @@ public class FullTriangle {
                 System.out.print("*");
             }
 
-            System.out.println();
+            System.out.println(); // jump to next row
         }
 
 

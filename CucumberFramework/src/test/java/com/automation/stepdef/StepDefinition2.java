@@ -5,9 +5,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Test;
+
 
 import java.util.List;
-import java.util.Map;
+
 
 public class StepDefinition2 {
 
@@ -92,7 +94,7 @@ public class StepDefinition2 {
         //System.out.println(data.get(2).get(1));
 
         //System.out.println(dataTable.cells().get(2).get(1)); //printing cell on row index 2, column index 1
-        System.out.println(dataTable.cells()); //printing the rows
+        System.out.println(dataTable.cells()); //printing the rows in a form of list [amount, name], [200, Apple],[]
 
 //        for (int i = 0; i < data.size(); i++) {
 //            for (int j = 0; j < data.get(i).size(); j++) {
@@ -123,3 +125,5 @@ public class StepDefinition2 {
 //        }
 //
 //    }
+
+

@@ -1,0 +1,3 @@
+com\automation\stepdef\Hooks.class
+runner\TestRunner.class
+com\automation\stepdef\StepDefinition2.class

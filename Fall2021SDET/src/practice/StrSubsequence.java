@@ -14,8 +14,13 @@ public class StrSubsequence {
         // unmatched char of str1, if matched
         // then move ahead in str1
         for (int i = 0; i < n && j < m; i++)
-            if (str1.charAt(j) == str2.charAt(i))
-                j++;
+            if (str1.charAt(j) == str2.charAt(i)) {
+                ++j;
+                if (j == m) break;
+                else if (str1.charAt(j) != str2.charAt(i+1)){
+                    return false;
+                }
+            }
 
         // If all characters of str1 were found
         // in str2
@@ -26,8 +31,8 @@ public class StrSubsequence {
     // graph class
     public static void main(String[] args)
     {
-        String str1 = "g";
-        String str2 = "geeksforgeeks";
+        String str1 = "34";
+        String str2 = "123456";
         int m = str1.length();
         int n = str2.length();
         boolean res = isSubSequence(str1, str2, m, n);

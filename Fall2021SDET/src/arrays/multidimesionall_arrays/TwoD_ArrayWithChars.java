@@ -23,7 +23,6 @@ public class TwoD_ArrayWithChars {
         System.out.println(Arrays.toString(symbols[0]));
 
         for (char[] chars : symbols){
-
             System.out.println(Arrays.toString(chars));
         }
     }
